@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">News Feed</string>
+    <string name="api_key">test</string>
+
+    <string name="no_news">No matching NewsArticle found.</string>
+    <string name="no_connection">No internet connection.</string>
+
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">NewsApp Settings</string>
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="search_menu_item">Search</string>
+
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <!-- Label for order-by oldest option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+    <!-- Label for order-by time option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+
+    <string name="settings_country_label">Country</string>
+    <string name="settings_country_key" translatable="false">country</string>
+    <string name="settings_country_default" translatable="false">@string/settings_country_all_value</string>
+
+    <!-- Label for All countries option [CHAR LIMIT=20] -->
+    <string name="settings_country_all_label">All</string>
+    <string name="settings_country_all_value" translatable="false">search</string>
+
+    <!-- Label for order-by time option [CHAR LIMIT=20] -->
+    <string name="settings_country_aus_label">Australia</string>
+    <string name="settings_country_aus_value" translatable="false">australia-news</string>
+
+    <!-- Label for country France option [CHAR LIMIT=20] -->
+    <string name="settings_country_france_label">France</string>
+    <string name="settings_country_france_value" translatable="false">world/france</string>
+
+    <!-- Label for country India option [CHAR LIMIT=20] -->
+    <string name="settings_country_india_label">India</string>
+    <string name="settings_country_india_value" translatable="false">world/india</string>
+
+    <!-- Label for country UK option [CHAR LIMIT=20] -->
+    <string name="settings_country_uk_label">UK</string>
+    <string name="settings_country_uk_value" translatable="false">uk-news</string>
+
+    <!-- Label for country USA option [CHAR LIMIT=20] -->
+    <string name="settings_country_usa_label">USA</string>
+    <string name="settings_country_usa_value" translatable="false">us-news</string>
+
+    <string name="settings_section_label">Section to be displayed</string>
+    <string name="settings_section_key" translatable="false">country</string>
+    <string name="settings_section_default" translatable="false">@string/settings_country_all_value</string>
+
+    <!-- Label for section Sport option [CHAR LIMIT=20] -->
+    <string name="settings_section_sports_label">Sports</string>
+    <string name="settings_section_sports_value" translatable="false">sport</string>
+
+    <!-- Label for section Travel option [CHAR LIMIT=20] -->
+    <string name="settings_section_travel_label">Travel</string>
+    <string name="settings_section_travel_value" translatable="false">travel</string>
+
+    <string name="search_key_prefix">Seached for : </string>
+    <string name="search_msg">Type key to search </string>
+
+
+</resources>

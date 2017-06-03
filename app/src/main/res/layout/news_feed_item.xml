@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemView"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:paddingLeft="@dimen/listitem_layout_sides_padding"
+    android:paddingRight="@dimen/listitem_layout_sides_padding"
+    android:paddingBottom="@dimen/listitem_layout_padding"
+    android:paddingTop="@dimen/listitem_layout_padding"
+    android:background="@color/tan_background">
+
+    <ImageView
+        android:id="@+id/coverImageView"
+        android:layout_width="@dimen/list_item_image_width"
+        android:layout_height="@dimen/list_item_image_height"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:id="@+id/dataLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_image_height"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/coverImageView"
+        android:layout_alignWithParentIfMissing="true"
+        android:paddingLeft="@dimen/listitem_image_text_space">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="top"
+            android:maxLines="2"
+            android:textColor="@android:color/black"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/shortDesc"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/textSecondaryColor"
+            android:textSize="12sp"
+            android:maxLines="3"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/extraDataLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="@dimen/listitem_layout_padding"
+        android:paddingTop="@dimen/listitem_layout_padding"
+        android:paddingBottom="@dimen/listitem_layout_padding">
+
+        <TextView
+            android:id="@+id/timeElapsed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textSize="12sp"
+            android:textColor="@android:color/black"
+            android:text="10 hours ago"/>
+
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textSize="12sp"
+            android:textColor="@android:color/black"
+            android:maxLines="1"
+            android:text="Pallavi"/>
+    </LinearLayout>
+</RelativeLayout>
